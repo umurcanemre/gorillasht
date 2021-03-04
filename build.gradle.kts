@@ -34,6 +34,8 @@ dependencies {
 	implementation("org.jetbrains.kotlinx:kotlinx-coroutines-core:1.4.2")
 	implementation("io.fusionauth:fusionauth-jwt:4.1.0")
 	implementation("junit:junit:4.12")
+	implementation("io.github.microutils:kotlin-logging:1.12.0")
+	implementation( "org.slf4j:slf4j-api:1.7.30")
 	developmentOnly("org.springframework.boot:spring-boot-devtools")
 	annotationProcessor("org.springframework.boot:spring-boot-configuration-processor")
 	testImplementation("org.springframework.boot:spring-boot-starter-test")

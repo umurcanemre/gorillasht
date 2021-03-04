@@ -24,9 +24,7 @@ class GorillasTaskApplication{
 	}
 }
 
-//TODO : fix logging
-//TODO : add graceful shutdown
-////https://medium.com/expedia-group-tech/creating-a-reactive-graphql-server-with-spring-boot-and-kotlin-54aca7316470
+//TO-consider for later : add graceful shutdown
 
 fun main(args: Array<String>) {
 	runApplication<GorillasTaskApplication>(*args)
