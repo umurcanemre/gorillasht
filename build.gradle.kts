@@ -32,6 +32,7 @@ dependencies {
 	implementation("com.expediagroup:graphql-kotlin-spring-server:3.7.0")
 	implementation("com.apollographql.federation:federation-graphql-java-support:0.6.3")
 	implementation("org.jetbrains.kotlinx:kotlinx-coroutines-core:1.4.2")
+	implementation("io.fusionauth:fusionauth-jwt:4.1.0")
 	developmentOnly("org.springframework.boot:spring-boot-devtools")
 	annotationProcessor("org.springframework.boot:spring-boot-configuration-processor")
 	testImplementation("org.springframework.boot:spring-boot-starter-test")

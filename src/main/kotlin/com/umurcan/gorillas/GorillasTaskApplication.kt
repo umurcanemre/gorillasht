@@ -12,6 +12,7 @@ import java.util.*
 
 @SpringBootApplication
 class GorillasTaskApplication{
+
 	@Bean
 	fun loadUsers() : List<User> {
 		val jsonString: String = File("./src/main/resources/users.json").readText(Charsets.UTF_8)
