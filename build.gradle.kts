@@ -33,6 +33,7 @@ dependencies {
 	implementation("com.apollographql.federation:federation-graphql-java-support:0.6.3")
 	implementation("org.jetbrains.kotlinx:kotlinx-coroutines-core:1.4.2")
 	implementation("io.fusionauth:fusionauth-jwt:4.1.0")
+	implementation("junit:junit:4.12")
 	developmentOnly("org.springframework.boot:spring-boot-devtools")
 	annotationProcessor("org.springframework.boot:spring-boot-configuration-processor")
 	testImplementation("org.springframework.boot:spring-boot-starter-test")

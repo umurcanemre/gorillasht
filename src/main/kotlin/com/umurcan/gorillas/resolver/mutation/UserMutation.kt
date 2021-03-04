@@ -15,7 +15,7 @@ import java.time.ZonedDateTime
 @Service
 class UserMutation(@Autowired private val users:List<User>) : Mutation{
     // Build an HMAC signer using a SHA-256 hash
-    var signer: Signer = HMACSigner.newSHA256Signer("staticSecretText")
+    val signer: Signer = HMACSigner.newSHA256Signer("staticSecretText")
 
     suspend fun auth(userName : String, password : String) : DataFetcherResult<String?> {
         val user : User? = users.find { it.userName == userName && it.password == it.password }
